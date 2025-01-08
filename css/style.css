@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'IranSans'; 
+  src: url('../font/iran_sans.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'IranSans', sans-serif; 
+  background-color: rgb(120, 202, 141);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end; 
+  margin-top: 16px;
+  margin-right: 16px;
+  gap: 16px;
+
+}
+ 
+
+.category-btn a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-container {
+  background-color: #a8d191; 
+}
+
+.header img { 
+  width: 40px;
+  height: 40px;
+}
+
+.creator-container {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.category-container button {
+  background-color: black;
+  border-radius: 100px;
+  color: white;
+  border: 0px;
+  padding: 8px;
+  background-color: rgb(120, 202, 141);
+}
+
+.base-caffeine h4 {
+  direction: rtl;
+}
+
+.address-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 16px;
+  color: white;
+}
+
+.address-container img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+.address-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px; 
+}
+
+
+
+.work-time-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 16px;
+  color: white; 
+  align-items: center;
+}
+
+.work-time-container p {
+  font-size: 14px;
+}
+
+.work-time-container img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+
+
+
+.base-title-menu h4 {
+  direction: rtl;
+}
+
+.header h1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.category-container {
+  display: flex; /* Makes the container a flexbox */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents line breaks for inline content */
+  gap: 10px; /* Adds space between buttons */
+  padding: 10px; /* Optional: Adds padding for aesthetics */
+  scrollbar-width: thin; /* Customizes scrollbar width (Firefox) */
+  direction: rtl;
+  margin-top: 10px;
+}
+
+.menu-container {
+  width: auto;
+  display: flex; 
+  justify-content: center;  
+  padding-bottom: 16px;
+}
+ 
+
+.menu-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 800px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 16px;
+  border-radius: 10px;
+}
+
+.instagram_icon {
+  width: 45px; 
+  height: 25px;
+}
+ 
+.phone_icon {
+  width: 25px; 
+  height: 25px;
+  margin-right: 8px;
+}
+
+.instagram-container {
+  display: flex;
+  align-items: center;
+}
+
+.instagram-container p {
+  color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-right: 16px;
+}
+
+.main-product-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(120, 202, 141);
+  margin-top: 16px;
+  padding-right: 18px;
+  padding-left: 16px;
+  border-radius: 80px;
+}
+
+.main-product-title-container img {
+  width: 44px;
+  height: 44px;
+}
+
+.main-product-title-container h4 {
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+.menu-item h3 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 32px;
+  color: rgba(66, 182, 118, 0.774); 
+}
+
+.divider {
+  background-color: rgb(221, 221, 221);
+  height: 1px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.price-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 32px;
+  gap: 5px;
+  color: rgb(66, 182, 118);
+  margin-top: -28px;
+}
+
+.footer {
+  margin-top: 8px;
+}
+
+@media (min-width: 250px) {
+  .menu-item {
+    width: 300px;
+  }
+}
+ 
+@media (min-width: 300px) {
+  .menu-item {
+    width: 350px;
+  }
+}
+
+
+ 
+@media (min-width: 700px) {
+  .menu-item {
+    width: 700px;
+  }
+} 
+ 
+
+
+/* CSS */
+.button-37 {
+  background-color: #a8d191;
+  border: 1px solid #40d67fa1;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-left: 14px;
+  width: 80px;
+  height: 40px;
+  outline: none;
+  outline: 0;
+  padding: 8px 15px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
