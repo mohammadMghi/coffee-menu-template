@@ -19,11 +19,20 @@ html {
   display: flex;
   align-items: center; 
   justify-content: flex-end; 
-  margin-top: 16px;
-  margin-right: 16px;
+  margin-top: 20px;
+  margin-right: 20px;
   gap: 16px;
 
 }
+
+.warm-drink-menu-container {
+  cursor: pointer;
+}
+
+#warm-drink-menu {
+  display: block;
+}
+
  
 
 .category-btn a {
@@ -32,8 +41,10 @@ html {
   font-weight: bold;
 }
 
+
+
 .main-container {
-  background-color: #a8d191; 
+  background: linear-gradient(90deg, rgba(168,209,145,0.6362920168067228) 0%, rgba(168,209,145,1) 100%);
 }
 
 .header img { 
@@ -51,7 +62,7 @@ html {
   background-color: black;
   border-radius: 100px;
   color: white;
-  border: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.445);
   padding: 8px;
   background-color: rgb(120, 202, 141);
 }
@@ -141,6 +152,7 @@ html {
   background-color: rgb(255, 255, 255);
   margin-top: 16px;
   border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.336);
 }
 
 .instagram_icon {
@@ -179,6 +191,8 @@ html {
   padding-right: 18px;
   padding-left: 16px;
   border-radius: 80px;
+  
+  border: 2px solid rgba(0, 0, 0, 0.219);
 }
 
 .main-product-title-container img {
@@ -243,11 +257,11 @@ html {
 /* CSS */
 .button-37 {
   background-color: #a8d191;
-  border: 1px solid #40d67fa1;
+  border: 2px solid #00000056;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #000000ad;
   cursor: pointer;
   font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
